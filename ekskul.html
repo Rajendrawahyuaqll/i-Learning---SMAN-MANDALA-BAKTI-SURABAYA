@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>i-Learning-SMAN MANDALA BAKTI SURABAYA</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+
+    <!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html" >
+					<img src="images/logosekolah-logosite.png" alt="" style="height: 100px;"/>
+                    <!-- nama website -->
+                    <nav class="navbar">
+                        <a href="index.html" class="nama-website">i-Learning</a>
+                    </nav>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="Tentang Kami.html">Tentang kami</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Data Master</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="siswa.html">Siswa</a>
+								<a class="dropdown-item" href="guru.html">Guru</a>
+								<a class="dropdown-item" href="staf.html">Staf</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="kelas.html">Kelas</a></class=>
+						<li class="nav-item"><a class="nav-link" href="e-Learning.html">e-Learning</a></li>
+						<li class="nav-item"><a class="nav-link" href="ekskul.html">Ekskul</a></li>
+						
+                    
+
+                                <li class="nav-item"><a class="nav-link" href="prestasi.html">Prestasi</a></li>
+
+							</div>
+                        </li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>Ekstrakulikuler<span class="m_1">SMAN Mandala Bakti Surabaya.<br/> Ekstrakurikuler adalah kegiatan di luar kurikulum akademik yang diselenggarakan di sekolah. Tujuan utamanya adalah untuk melengkapi pembelajaran di kelas dengan pengalaman praktis dan interaksi sosial yang memperkaya perkembangan siswa. Ekstrakurikuler mencakup berbagai kegiatan seperti olahraga, seni, musik, debat, klub bahasa, dan banyak lagi. Partisipasi dalam ekstrakurikuler dapat membantu siswa mengembangkan keterampilan baru, menemukan minat mereka, memperluas lingkaran sosial, serta membangun karakter, kepemimpinan, dan kerja tim.</span></h1>
+		</div>
+	</div>
+	
+	<div id="Ekstrakulikuler" class="section wb">
+        <div class="container">
+            <div class="row">
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/basket.jpeg">
+						
+						</div>
+						<div class="team-content">
+							<h3 class="title">Basket</h3>
+							<span class="post">Ekstrakurikuler basket adalah kegiatan di luar jam belajar yang memungkinkan siswa untuk bermain basket. Melalui latihan dan pertandingan, siswa mengembangkan keterampilan fisik dan mental seperti dribbling, kerja tim, dan disiplin. Ini tidak hanya meningkatkan kesehatan fisik, tetapi juga memupuk nilai-nilai seperti kerjasama dan sportivitas.</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/band.jpeg">
+						
+						</div>
+						<div class="team-content">
+							<h3 class="title">Band</h3>
+							<span class="post">Ekstrakurikuler band adalah kegiatan di luar jam belajar di mana siswa belajar dan bermain musik bersama dalam kelompok. Ini melibatkan latihan rutin dan penampilan di acara sekolah atau komunitas, membantu siswa mengembangkan keterampilan musik, kerja tim, dan minat dalam seni musik.</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/futsal.jpeg">
+						
+						</div>
+						<div class="team-content">
+							<h3 class="title">Futsal</h3>
+							<span class="post">Ekstrakurikuler futsal adalah kegiatan di luar jam belajar yang melibatkan latihan, pertandingan, dan kompetisi futsal untuk mengembangkan keterampilan teknis dan mental siswa serta mempromosikan nilai-nilai seperti kerja tim dan dedikasi.</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6 col-12">
+					<div class="our-team">
+						<div class="team-img">
+							<img src="images/pmr-logo-4DCEC6060B-seeklogo.com_.png">
+							
+						</div>
+						<div class="team-content">
+							<h3 class="title">PMR</h3>
+							<span class="post">Ekskul PMR adalah kegiatan ekstrakurikuler yang fokus pada pelatihan keterampilan kepemimpinan, pertolongan pertama, dan kesiapsiagaan dalam situasi darurat. Melalui kegiatan seperti pelatihan pertolongan pertama dan kegiatan sosial, ekskul PMR membantu siswa mengembangkan sikap tanggung jawab, empati, dan kerjasama tim, serta meningkatkan kesadaran akan pentingnya membantu sesama.</span>
+						</div>
+					</div>
+				</div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->	
+
+  
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
