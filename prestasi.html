@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>i-Learning-SMAN MANDALA BAKTI SURABAYA</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+
+    <!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html" >
+					<img src="images/logosekolah-logosite.png" alt="" style="height: 100px;"/>
+                    <!-- nama website -->
+                    <nav class="navbar">
+                        <a href="index.html" class="nama-website">i-Learning</a>
+                    </nav>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="Tentang Kami.html">Tentang kami</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Data Master</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="siswa.html">Siswa</a>
+								<a class="dropdown-item" href="guru.html">Guru</a>
+								<a class="dropdown-item" href="staf.html">Staf</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="kelas.html">Kelas</a></class=>
+						<li class="nav-item"><a class="nav-link" href="e-Learning.html">e-Learning</a></li>
+						<li class="nav-item"><a class="nav-link" href="ekskul.html">Ekskul</a></li>
+						
+                    
+
+                                <li class="nav-item"><a class="nav-link" href="prestasi.html">Prestasi</a></li>
+
+							</div>
+                        </li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+    <div class="all-title-box">
+		<div class="container text-center">
+			<h1>Prestasi<span class="m_1">SMAN Mandala Bakti Surabaya.<br/> Prestasi adalah pencapaian di luar kurikulum akademik yang diraih oleh siswa di sekolah. Tujuan utamanya adalah untuk menunjukkan keunggulan dalam berbagai bidang baik itu akademik maupun non-akademik. Prestasi bisa berupa penghargaan, medali, sertifikat, atau pengakuan lainnya atas kinerja atau pencapaian yang luar biasa. Partisipasi dalam kegiatan prestasi dapat membantu siswa mengembangkan potensi mereka, meningkatkan motivasi, memperoleh pengalaman berharga, serta membangun karakter, kepemimpinan, dan kerja tim.</span></h1>
+		</div>
+	</div>
+    <style>
+        /* Style untuk mengubah tata letak menjadi landscape */
+        .section.wb .row {
+            display: flex;
+            flex-wrap: wrap;
+            height: 400px;
+            
+            
+        }
+    
+        .section.wb .col-lg-3,
+        .section.wb .col-md-6,
+        .section.wb .col-12 {
+            flex: 0 0 33.33%;
+            max-width: 33.33%;
+        
+
+        }
+ 
+        
+    </style>
+    
+    <div class="all-title-box" style="background: none; background-color: rgba(255, 158, 39, 0.925); height: 200px;">
+        <div class="container text-center" style="height: -200px ; margin-top: 50px;">
+            <h1 style="color: rgb(255, 255, 255); text-align: center; margin-top: -50px;">PRESTASI AKADEMIK</h1>
+        </div>
+    <div id="PrestasiAkademik" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="our-team">
+                        <div class="team-img">
+                            <img src="akademik1.png" alt="Foto Suep Abdurahman">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Best High School Team Science Fair 2022</h3>
+                            <span class="post">Murid SMA Mandala Bakti Surabaya telah menyapu bersih penghargaan sebagai tim terbaik dalam Science Fair 2022. Dengan kecerdasan mereka yang luar biasa, mereka berhasil menciptakan proyek revolusioner yang menggabungkan fisika kuantum dan teknologi terkini. Anggota yang telah berkontribusi bernama Alan, Rahmat, Fahmi, dan Selen.</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="our-team">
+                        <div class="team-img">
+                            <img src="akademik2.png" alt="Foto Agus">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">National Debate Competition 2023</h3>
+                            <span class="post">Di acara Kompetisi Debat Nasional yang bergengsi, para debater telah memamerkan bakat dan kecakapan mereka dalam mempertahankan argumen mereka dengan penuh semangat dan kecerdasan. Pemenang diraih oleh Tania mendapat Juara 1, Alden memperoleh Pembicara Terbaik 2, dan Zaffy Pembicara Terbaik 8.</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="our-team">
+                        <div class="team-img">
+                            <img src="Screenshot 2024-04-30 144132.png" alt="Foto Udil">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">3rd Place Mathematics Olympiad 2024</h3>
+                            <span class="post">Murid SMA Mandala Bakti telah meraih Juara ketiga dalam Olimpiade Matematika 2024. Mereka telah menunjukkan dedikasi, kecerdasan, dan ketekunan dalam menyelesaikan tantangan matematika yang kompleks. Anggota tim ini bernama Ryan, Elena, dan Adam.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <style>
+        /* Style untuk mengubah tata letak menjadi landscape */
+        .section.wb .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 100px;
+    
+        }
+    
+        .section.wb .col-lg-3,
+        .section.wb .col-md-6,
+        .section.wb .col-12 {
+            flex: 0 0 33.33%;
+            max-width: 33.33%;
+        }
+        .post{
+            text-align: center;
+        }
+    </style>
+  <div class="all-title-box" style="background: none; background-color: rgba(12, 8, 66, 0.779); height: 100px;">
+    <div class="container text-center" style="height: -100px;">
+        <h1 style="color: rgb(255, 255, 255); text-align: center; margin-top: -50px;">PRESTASI NON-AKADEMIK</h1>
+    </div>
+    <div id="PrestasiNonAkademik" class="section wb">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="our-team">
+                        <div class="team-img">
+                            <img src="non akademik1.jpg" alt="Foto Roni">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Emporium Guest Star</h3>
+                            <span class="post">Roni memperoleh prestasi luar biasa sebagai guest star di Emporium. Penampilan Roni yang menghibur dan berkualitas tinggi membuatnya menjadi sorotan dalam acara tersebut, menunjukkan bakat dan dedikasinya dalam seni pertunjukan.</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="our-team">
+                        <div class="team-img">
+                            <img src="non akademik2.jpg" alt="Foto Nadia">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">1st Place Surabaya Creative Dance Competition</h3>
+                            <span class="post">Nadia, Hamidah, dan Tania adalah trio penari berbakat yang berhasil meraih prestasi gemilang dalam lomba tari. Dengan gerakan yang anggun dan ekspresi yang memikat, mereka berhasil memukau juri dan penonton, membawa pulang penghargaan sebagai juara dalam kompetisi tari kreasi tingkat Surabaya.</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="our-team">
+                        <div class="team-img">
+                            <img src="non akademik3.jpg" alt="Foto Lia">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">2nd Place National Robotics Competition</h3>
+                            <span class="post">Tim Robotika dari SMAN Mandala Bakti Surabaya berhasil meraih posisi kedua dalam kompetisi robotika tingkat nasional. Dengan desain yang inovatif dan kinerja robot yang cemerlang, prestasinya menunjukkan kemampuan yang luar biasa dalam bidang teknologi dan robotika.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function toggleText(id) {
+            var moreText = document.getElementById(id);
+            if (moreText.style.display === "none") {
+                moreText.style.display = "inline";
+            } else {
+                moreText.style.display = "none";
+            }
+        }
+    </script>
+    
+    <script>
+        function toggleText(id) {
+            var moreText = document.getElementById(id);
+            if (moreText.style.display === "none") {
+                moreText.style.display = "inline";
+            } else {
+                moreText.style.display = "none";
+            }
+        }
+    </script>    
+
+     <div class="copyrights" style="margin-top: 20px;" >
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">SMAN MANDALA BAKTI SBY</a> Design By : <a href="https://html.design/">html design</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+    
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
