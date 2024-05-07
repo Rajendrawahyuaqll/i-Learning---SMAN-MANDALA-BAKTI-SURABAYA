@@ -24,8 +24,8 @@
 body {
   color: #ffffff;
   font-size: 14px;
-  font-family: "Rubik", sans-serif;
-  line-height: 1.80857;
+  font-family: "Poppins", sans-serif;
+  
 }
 
 body.demos .section {
@@ -84,7 +84,7 @@ h6 {
   padding: 0 0 10px 0;
   font-weight: normal;
   line-height: 120% !important;
-  color: #262626;
+  color: #fcfcfc;
   margin: 0;
 }
 
@@ -464,12 +464,12 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .top-navbar .bg-light {
-  background: #fafafa !important;
+  background: #fff !important; 
 }
 
 /* Font Navbar */
 .top-navbar .navbar-light .navbar-nav .nav-link {
-  color: #595858;
+  color: #474747;
   font-size: 16px;
   font-weight: 500;
 }
@@ -611,7 +611,7 @@ a img.aligncenter {
 .top-navbar .bg-light {
   padding-top: 0px;
   padding-bottom: 0px;
-  box-shadow: 0 0 18px 0 rgba(144, 51, 51, 0.12);
+  box-shadow: 0 0 18px 0 rgba(196, 13, 13, 0.12);
 }
 
 .top-navbar .navbar-light .navbar-nav li .dropdown-menu {
@@ -626,12 +626,14 @@ a img.aligncenter {
 }
 
 .top-navbar .navbar-light .navbar-nav li .dropdown-menu a:hover {
-  background: #103568;
+  background: #025edf;
   border-radius: 19px;
   color: #f3f8ff;
 }
 
 .navbar .nama-website {
+  
+  margin-left: -20px;
   font-size: 30px;
   font-style: italic;
   font-family: "Poppins";
@@ -815,7 +817,7 @@ a img.aligncenter {
 }
 
 .section.lb {
-  background-color: #f2f3f5;
+  background-color: #ffffff;
 }
 
 .section.db {
@@ -826,7 +828,7 @@ a img.aligncenter {
   background-color: #0a347c;
 }
 .section.cl {
-  background-color: #eea412;
+  background-color: #eff9ff;
 }
 
 .hover-btn-new {
@@ -854,7 +856,7 @@ a img.aligncenter {
 .first-section {
   position: relative;
   overflow: hidden;
-  height: 100%;
+  height: 630px;
   vertical-align: middle;
 }
 
@@ -904,6 +906,14 @@ a img.aligncenter {
   display: block;
   position: relative;
   margin-bottom: 55px;
+}
+
+.welcome {
+  background-color: #eff9ff;
+  height: 300px;
+  width: 1430px;
+  margin-left: -165px;
+  margin-top: -20px;
 }
 
 .section-title p {
@@ -1117,7 +1127,6 @@ a img.aligncenter {
 }
 
 
-}
 .inner-hmv:hover .tr-pa {
   opacity: 1;
   -webkit-transition: all 0.3s;
@@ -1496,7 +1505,6 @@ a img.aligncenter {
   font-weight: 600;
   letter-spacing: 0.5px;
   font-size: 15px;
-  overflow-x: ;
   color: #eea412;
 }
 
@@ -2597,7 +2605,7 @@ select.mobile-device {
 
 body.host_version .slide-btn.btn-light {
   background-color: #2d3032 !important;
-  color: #ffffff !important;
+  color: #db1010 !important;
   border: 2px solid #2d3032 !important;
 }
 body.host_version .first-section .effect-1.slide-btn::after {
@@ -2607,7 +2615,7 @@ body.host_version .first-section .effect-1.slide-btn::after {
 /**-------------- inner Page css ---------------**/
 
 .all-title-box {
-  background: url(images/banner.jpg) no-repeat;
+  background: url(images/PRESTASIII.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2626,7 +2634,7 @@ body.host_version .first-section .effect-1.slide-btn::after {
 }
 
 span.m_1 {
-  font-weight: 300;
+  font-weight: bold;
   font-size: 20px;
   line-height: 1.5em;
   display: block;
@@ -3627,12 +3635,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #cdcdcd;
+  background-color: #ffffff;
 }
 
 .Profil-siswa {
-  max-width: 1200px;
-  margin: 0 auto;
+  
+  margin-left: -8px;
   padding: 20px;
   display: flex;
   color: #1a1a1a;
@@ -3663,6 +3671,7 @@ body {
 }
 
 .user-details p {
+  color: #f3f3f3;
   margin: 5px 0;
 }
 
@@ -3843,73 +3852,340 @@ footer {
   color: #007bff; /* warna ikon saat dihover */
 }
 
-/* Gaya untuk tag h3 */
-h3 {
-  color: #333; /* Warna teks */
-  font-size: 24px; /* Ukuran font */
-  margin-bottom: 10px; /* Jarak bawah */
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+.fa-2x {
+font-size: 2em;
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+color: #ffffff;
 }
 
-/* Gaya untuk kelas .sejarahh */
-.sejarahh {
-  font-size: 18px; /* Ukuran font */
-  font-weight: bold; /* Tebal teks */
-  color: #900; /* Warna teks */
-  margin-bottom: 10px; /* Jarak bawah */
+.fa-regular{
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+
 }
 
-/* Gaya untuk tag <p> */
-p {
-  font-size: 16px; /* Ukuran font */
-  line-height: 1.6; /* Jarak antar baris */
-  color: #666; /* Warna teks */
-  margin-bottom: 20px; /* Jarak bawah */
+
+/*COURSES AVAILABLE*/
+.ccard {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.ccardbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f7f7f7;
+.dcard {
+	margin: 10px;
+	width: 300px;
+	height: 200px;
+	background: linear-gradient(to right, #FDDE55, #03AED2);
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+.dcard .fpart {
+	width: inherit;
+	height: 150px;
+	color: #000;
+	text-align: left;
+	overflow: hidden;
+}
+.dcard .fpart img {
+	width: 100%;
+	height: 100%;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 30px;
+.dcard .spart {
+	padding: 10px;
+	padding-right: 0px;
+	color: #fff;
+	text-align: left;
+	cursor: pointer;
+}
+.dcard .spart img {
+	width: 20px;
+	margin-left: 170px;
+	cursor: pointer;
+	/* transform: rotate(180deg); */
 }
 
-h1 {
-    color: #050505;
-    font-weight: bolder;
-    font-family: 'Poppins';
-    font-size: 45px;
-    font-style: italic;
+.dcard:hover .fpart img{
+	transition: .8s ease;
+	transform: scale(1.2);
 }
 
-.sejarah {
-    background-color: #eea412;
-    border-radius: 10px;
-    padding: 20px;
-
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/*Small Titles for  Topics*/
+.title2 {
+	position: relative;
+	padding-top: 150px;
+	margin-left: 100px;
+}
+.title2 span{
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	color: #2E3D49;
+}
+.title2 .shortdesc2 {
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #2E3D49;
+	margin-bottom: 10px;
 }
 
-h2 {
-    color: #ffffff;
-    margin-bottom: 15px;
-    text-align: center;
-    font-family: 'Poppins';
-    font-weight: bold;
+/*Videos Section*/
+.ccardbox2 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
-p {
-    color: #ffffff;
-    line-height: 1.6;
+.dcard2 {
+	margin: 20px;
+	width: 300px;
+	height: 160px;
+	background: linear-gradient(to right, #FDDE55, #03AED2);
+	border-radius: 10px;
+}
+.dcard2:hover .fpart2 img {
+	display: none;
+}
+.dcard2 .fpart2 { 
+	width: inherit;
+	height: 180px;
+	background: #000;
+	color: #000;
+	text-align: left;
+	border-top-right-radius: 100px;
+	transform: translateY(-19px);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	overflow: hidden;
+}
+.dcard2 .tag {
+	position: relative;
+	margin-left: 270px;
+	top: 10px;
+	color: #fff;
+}
+.dcard2 .fpart2 img {
+	width: 100%;
+	height: 100%;
+}
+.fpart2 iframe {
+	height: inherit;
+	width: inherit;
 }
 
+/*Watch Full Playlist*/
+.click-me {
+	justify-content: center;
+	display: flex;
+}
+.click-me a {
+	color: #DF2771;
+	text-decoration: none;
+	transition-duration: .5s;
+	padding: 10px;
+}
+.click-me a:hover {
+	background: #DF2771;
+	color: #fff;
+}
+
+/* kelas */
+
+.twitter-menu li {
+  background-color: #000;
+  border: none;
+  font-size: 16pt;
+  padding: 10px 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  line-height: 5px;
+}
+
+.twitter-menu li i {
+  width: 45px;
+}
+
+.twitter-menu li a {
+  text-decoration: none;
+  color: #e6e9ea;
+}
+
+.twitter-menu li:hover {
+  background-color: #181818;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 23px;
+}
+
+/* End left sidebar */
+
+/* Feed Area */
+
+.main-content {
+  border: 1px solid rgba(148, 147, 147, 0.333);
+  border-left: 1px solid rgba(148, 147, 147, 0.333);
+  border-right: 1px solid rgba(148, 147, 147, 0.333);
+  border-bottom: 1px solid rgba(148, 147, 147, 0.333);
+}
+
+.Icons {
+  margin-left: 11px;
+}
+
+.Icons i {
+  margin-right: 10px;
+}
+
+.feed-items {
+  border: 1px solid rgba(148, 147, 147, 0.333);
+  border-bottom: 1px solid rgba(148, 147, 147, 0.333);
+}
+
+.name h2 {
+  background-color: rgb(0, 0, 0);
+  color: #e6e9ea;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: -30px;
+}
+
+.name i {
+  margin-right: 15px;
+  width: 20px;
+  margin-top: 15px;
+  display: flex;
+  color: #e6e9ea;
+}
+
+/* notification style */
+
+.container-fluid .navbar-brand {
+  position: relative;
+  padding: 0 10px;
+}
+
+.container-fluid .navbar-brand:after {
+  content: "";
+  position: absolute;
+  background-color: #198cd8;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+}
+
+.container-fluid .navbar-brand:hover {
+  color: #fff;
+}
+
+.container-fluid .navbar-brand:hover:after {
+  width: 100%;
+  
+}
+
+.kelas-item {
+  font-size: 2.5rem;
+}
+
+.kelas-item p {
+  color: #007bff;
+  font-weight: bolder;
+  font-size: 1.7rem;
+}
+
+/* Prestasi */
+
+.review {
+	background: #F8F8F8;
+	width: 100%;
+}
+.rev-container {
+	padding: 10px 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.rev-container .rev-card {
+	/*overflow: hidden;*/
+	width: 550px;
+	height: 240px;
+	margin-bottom: 40px;
+	background: #fff;
+	display: flex;
+	padding: 10px;
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+}
+.rev-card:hover {
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+.identity {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10px;
+}
+.identity img {
+	width: 120px;
+	height: 120px;
+	transition-duration: .8s;
+	border-radius: 50%;
+}
+.identity img:hover {
+	transform: scale(2.2);
+	border-radius: 0px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.identity p {
+	width: 150px;
+	font-weight: bold;
+	color: #2E3D49;
+	text-align: center;
+}
+.identity h6 {
+	width: 150px;
+	text-align: center;
+}
+.identity .rating img {
+	width: 12px;
+	height: 12px;
+	margin-right: 5px;
+}
+.rev-cont {
+	overflow: hidden;
+}
+.rev-cont #title {
+	padding: 10px;
+	color: #2E3D49;
+	font-weight: bold;
+}
+.rev-cont #content {
+	padding: 10px;
+	font-size: .9em;
+	color: #2E3D49;
+	line-height: 22px;
+	text-align: justify;
+}
