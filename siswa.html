@@ -45,18 +45,6 @@
 </head>
 <body class="host_version"> 
 
-	
-
-    <!-- LOADER -->
-	<div id="preloader">
-		<div class="loader-container">
-			<div class="progress-br float shadow">
-				<div class="progress__item"></div>
-			</div>
-		</div>
-	</div>
-	<!-- END LOADER -->	
-
   <!-- Start header -->
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -86,14 +74,17 @@
 							</div>
 						</li>
 						<li class="nav-item"><a class="nav-link" href="kelas.html">Kelas</a></class=>
-						<li class="nav-item"><a class="nav-link" href="e-Learning.html">e-Learning</a>
-						 <li class="nav-item"><a class="nav-link" href="ekskul.html">Ekskul</a></li>
-
-
-                                <li class="nav-item"><a class="nav-link" href="prestasi.html">Prestasi</a></li>
-
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">e-Learning</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="materi.html">Materi</a>
+								<a class="dropdown-item" href="e-Learning.html">Tugas</a>
 							</div>
-                        </li>
+						</li>
+						 <li class="nav-item"><a class="nav-link" href="ekskul.html">Ekskul</a></li>
+             <li class="nav-item"><a class="nav-link" href="prestasi.html">Prestasi</a></li>
+            </div>
+          </li>
 					</ul>
 				</div>
 			</div>
@@ -104,14 +95,14 @@
 	
 
 	<!-- Profil Pengguna -->
-	<div class="Profil-siswa">
-    <div class="profile">
+	<div class="Profil-siswa" style="margin-bottom: -100px;">
+    <div class="profile" style="margin-bottom: 200px;">
       <div class="profile-info">
         <img src="images/pp.jpg" alt="Profile Picture">
         <div class="user-details">
           <h2>Rajendra Wahyu Aqilla</h2>
           <p>NIS: 09072004</p>
-		  <p>Alamat: Zimbabwe</p>
+		  <p>Angkatan: 2022</p>
         </div>
       </div>
       <a href="#" class="edit-profile">Edit Data</a>
@@ -122,7 +113,7 @@
         </div>
         <div class="admin-box">
           <h3>Kelas</h3>
-          <p>XII IPA</p>
+          <p>XII A</p>
         </div>
       </div>
     </div>
@@ -155,21 +146,65 @@
         </tr>
         <tr> 
           <td>Senin</td>
-          <td>08:00 - 09:30</td>
+          <td>07:00 - 08:30</td>
           <td>Matematika</td>
-          <td>Mr. John</td>
+          <td>Mr. Jono</td>
         </tr>
+        <tr> 
+          <td>Senin</td>
+          <td>08:30 - 09:30</td>
+          <td>Kimia</td>
+          <td>Mr. Fahmi</td>
+        </tr>
+        <tr> 
+          <td>Senin</td>
+          <td>10.00 - 11:30</td>
+          <td>Fisika</td>
+          <td>Mr. Asep</td>
+        </tr>
+		  <tr>
+          <th>Hari</th>
+          <th>Jam</th>
+          <th>Mata Pelajaran</th>
+          <th>Guru</th>
+      </tr>
 		<tr>
+        <tr>
+          <td>Selasa</td>
+          <td>08:00 - 09:30</td>
+          <td>Bahasa Indonesia</td>
+          <td>Mr. Jona</td>
+        </tr>
+        <tr>
+          <td>Selasa</td>
+          <td>09:30 - 10:30</td>
+          <td>Bahasa Inggris</td>
+          <td>Mr. Jone</td>
+        </tr>
+        <tr>
           <th>Hari</th>
           <th>Jam</th>
           <th>Mata Pelajaran</th>
           <th>Guru</th>
         </tr>
-		<tr>
-          <td>Senin</td>
+        <tr>
+          <td>Rabu</td>
           <td>08:00 - 09:30</td>
-          <td>Matematika</td>
-          <td>Mr. John</td>
+          <td>Sejarah</td>
+          <td>Mr. Saifudin</td>
+        </tr>
+        <tr>
+          <td>Rabu</td>
+          <td>09:30 - 10:30</td>
+          <td>Agama</td>
+          <td>Mr. Joni</td>
+        </tr>
+        <tr>
+          <td>Rabu</td>
+          <td>12:00 - 13:00</td>
+          <td>PPKN</td>
+          <td>Mr. Asep</td>
+        </tr>
         <!-- Tambahkan baris untuk jadwal kelas lainnya -->
       </table>
 	  </div>
