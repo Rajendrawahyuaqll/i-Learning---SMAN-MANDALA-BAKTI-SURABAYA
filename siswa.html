@@ -46,14 +46,14 @@
 <body class="host_version"> 
 
   <!-- Start header -->
-	<header class="top-navbar">
+		<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="index.html" >
-					<img src="images/logosekolah-logosite.png" alt="" style="height: 100px;"/>
+					<img src="images/logosekolah.png" alt="" style="height: 100px;"/>
                     <!-- nama website -->
                     <nav class="navbar">
-                        <a href="index.html" class="nama-website">i-Learning</a>
+                        <a href="index.html" class="nama-website" >SMA MANDALA BAKTI</a>
                     </nav>
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,8 +72,9 @@
 								<a class="dropdown-item" href="guru.html">Guru</a>
 								<a class="dropdown-item" href="staf.html">Staf</a>
 							</div>
+						
 						</li>
-						<li class="nav-item"><a class="nav-link" href="kelas.html">Kelas</a></class=>
+						<li class="nav-item"><a class="nav-link" href="kelas.html">Kelas</a>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">e-Learning</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
@@ -81,10 +82,10 @@
 								<a class="dropdown-item" href="e-Learning.html">Tugas</a>
 							</div>
 						</li>
-						 <li class="nav-item"><a class="nav-link" href="ekskul.html">Ekskul</a></li>
-             <li class="nav-item"><a class="nav-link" href="prestasi.html">Prestasi</a></li>
-            </div>
-          </li>
+                        <li class="nav-item"><a class="nav-link" href="ekskul.html">Ekskul</a></li>
+						<li class="nav-item"><a class="nav-link" href="prestasi.html">Prestasi</a></li>
+							</div>
+                        </li>
 					</ul>
 				</div>
 			</div>
@@ -92,128 +93,228 @@
 	</header>
 	<!-- End header -->
 
-	
-
-	<!-- Profil Pengguna -->
-	<div class="Profil-siswa" style="margin-bottom: -100px;">
-    <div class="profile" style="margin-bottom: 200px;">
-      <div class="profile-info">
-        <img src="images/pp.jpg" alt="Profile Picture">
-        <div class="user-details">
-          <h2>Rajendra Wahyu Aqilla</h2>
-          <p>NIS: 09072004</p>
-		  <p>Angkatan: 2022</p>
+	<div class="siswa">
+    <!-- Bagian Kiri (Profil Siswa) -->
+    <div class="sidebar-left">
+        <div class="profile-container">
+            <!-- Photo Profile -->
+            <div class="photo-profile">
+                <img src="https://i.pinimg.com/564x/25/14/6d/25146de3b3fd30d5fdc2f11dd84dda25.jpg" alt="Photo Profile">
+            </div>
+            <!-- Informasi Siswa -->
+            <div class="info">
+                <h2>Budiono Siregar</h2>
+                <p>NIS: 123456789</p>
+                <p>Kelas: X A</p>
+                <p>Angkatan: 2030</p>
+            </div>
         </div>
-      </div>
-      <a href="#" class="edit-profile">Edit Data</a>
-      <div class="admin-info">
-        <div class="admin-box">
-          <h3>Kode VA</h3>
-          <p>1234567890</p>
-        </div>
-        <div class="admin-box">
-          <h3>Kelas</h3>
-          <p>XII A</p>
-        </div>
-      </div>
+        <div class="payment-info">
+        <h3>Kode VA Pembayaran</h3>
+        <p>Kode VA: 1234 5678 9012 3456</p>
     </div>
-    <div class="information">
-      <h2>Informasi Tahun Ajaran</h2>
-      <!-- Informasi Tahun Ajaran disini -->
-      <h2>Jadwal Kelas</h2>
-	  <div>
- 
-		<style>
-        .tabel-siswa {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        .tabel-siswa th, .tabel-siswa td {
-            border: 1px solid #dddddd;
-            text-align: center; /* membuat teks ditengah */
-            padding: 8px;
-        }
-        .tabel-siswa th {
-            background-color: #f2f2f2;
-        }
-    </style>
-      <table class="tabel-siswa">
+    </div>
+    <!-- Bagian Kanan (Konten Utama) -->
+    <div class="main-content">
+        <!-- Konten Utama -->
+       <table class="jadwal-sekolah">
+    <thead>
         <tr>
-          <th>Hari</th>
-          <th>Jam</th>
-          <th>Mata Pelajaran</th>
-          <th>Guru</th>
+            <th>Hari</th>
+            <th>Jam Pelajaran</th>
+            <th>Mata Pelajaran</th>
+            <th>Absensi</th>
         </tr>
-        <tr> 
-          <td>Senin</td>
-          <td>07:00 - 08:30</td>
-          <td>Matematika</td>
-          <td>Mr. Jono</td>
-        </tr>
-        <tr> 
-          <td>Senin</td>
-          <td>08:30 - 09:30</td>
-          <td>Kimia</td>
-          <td>Mr. Fahmi</td>
-        </tr>
-        <tr> 
-          <td>Senin</td>
-          <td>10.00 - 11:30</td>
-          <td>Fisika</td>
-          <td>Mr. Asep</td>
-        </tr>
-		  <tr>
-          <th>Hari</th>
-          <th>Jam</th>
-          <th>Mata Pelajaran</th>
-          <th>Guru</th>
-      </tr>
-		<tr>
+    </thead>
+    <tbody>
         <tr>
-          <td>Selasa</td>
-          <td>08:00 - 09:30</td>
-          <td>Bahasa Indonesia</td>
-          <td>Mr. Jona</td>
+            <td rowspan="3">Senin</td>
+            <td>07:00 - 08:30</td>
+            <td>Matematika</td>
+            <td> <button class="btn btn-secondary" onclick="showAlert() ">Hadir</button></td>
         </tr>
         <tr>
-          <td>Selasa</td>
-          <td>09:30 - 10:30</td>
-          <td>Bahasa Inggris</td>
-          <td>Mr. Jone</td>
+            <td>09:00 - 10:30</td>
+            <td>Bahasa Indonesia</td>
+            <td> <button class="btn btn-secondary" onclick="showAlert() ">Hadir</button></td>
         </tr>
         <tr>
-          <th>Hari</th>
-          <th>Jam</th>
-          <th>Mata Pelajaran</th>
-          <th>Guru</th>
+            <td>11:00 - 12:30</td>
+            <td>IPA</td>
+            <td> <button class="btn btn-secondary" onclick="showAlert() ">Hadir</button></td>
         </tr>
         <tr>
-          <td>Rabu</td>
-          <td>08:00 - 09:30</td>
-          <td>Sejarah</td>
-          <td>Mr. Saifudin</td>
+            <td rowspan="3">Senin</td>
+            <td>07:00 - 08:30</td>
+            <td>Matematika</td>
+            <td> <button class="btn btn-secondary" onclick="showAlert() ">Hadir</button></td>
         </tr>
         <tr>
-          <td>Rabu</td>
-          <td>09:30 - 10:30</td>
-          <td>Agama</td>
-          <td>Mr. Joni</td>
+            <td>09:00 - 10:30</td>
+            <td>Bahasa Indonesia</td>
+            <td> <button class="btn btn-secondary" onclick="showAlert() ">Hadir</button></td>
         </tr>
         <tr>
-          <td>Rabu</td>
-          <td>12:00 - 13:00</td>
-          <td>PPKN</td>
-          <td>Mr. Asep</td>
+            <td>11:00 - 12:30</td>
+            <td>IPA</td>
+            <td> <button class="btn btn-secondary" onclick="showAlert() ">Hadir</button></td>
         </tr>
-        <!-- Tambahkan baris untuk jadwal kelas lainnya -->
-      </table>
-	  </div>
-  </div>
-				
+        <tr>
+            <td rowspan="3">Senin</td>
+            <td>07:00 - 08:30</td>
+            <td>Matematika</td>
+            <td> <button class="btn btn-secondary" onclick="showAlert() ">Hadir</button></td>
+        </tr>
+        <tr>
+            <td>09:00 - 10:30</td>
+            <td>Bahasa Indonesia</td>
+            <td> <button class="btn btn-secondary" onclick="showAlert() ">Hadir</button></td>
+        </tr>
+        <tr>
+            <td>11:00 - 12:30</td>
+            <td>IPA</td>
+            <td> <button class="btn btn-secondary" onclick="showAlert() ">Hadir</button></td>
+        </tr>
+        <tr>
+            <td rowspan="3">Senin</td>
+            <td>07:00 - 08:30</td>
+            <td>Matematika</td>
+            <td> <button class="btn btn-secondary" onclick="showAlert() ">Hadir</button></td>
+        </tr>
+        <tr>
+            <td>09:00 - 10:30</td>
+            <td>Bahasa Indonesia</td>
+            <td> <button class="btn btn-secondary" onclick="showAlert() ">Hadir</button></td>
+        </tr>
+        <tr>
+            <td>11:00 - 12:30</td>
+            <td>IPA</td>
+            <td> <button class="btn btn-secondary" onclick="showAlert() ">Hadir</button></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>
+
+<div class="semester-info" id="semester">
+    <h4>SEMESTER II</h4>
+    <p>Tahun Ajaran 2024/2025</p>
+</div>
+
+<table class="nilai-semester">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Mata Pelajaran</th>
+            <th>Nilai Tugas</th>
+            <th>Nilai UTS</th>
+            <th>Nilai UAS</th>
+            <th>Nilai Akhir</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Matematika</td>
+            <td>85</td>
+            <td>78</td>
+            <td>82</td>
+            <td>82</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bahasa Indonesia</td>
+            <td>90</td>
+            <td>88</td>
+            <td>92</td>
+            <td>90</td>
+        </tr>
+        <!-- Tambahkan baris untuk mata pelajaran lainnya seperti di atas -->
+    </tbody>
+</table>
+
+<div class="semester-info" id="semester">
+    <h4>SEMESTER II</h4>
+    <p>Tahun Ajaran 2024/2025</p>
+</div>
+
+<table class="nilai-semester">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Mata Pelajaran</th>
+            <th>Nilai Tugas</th>
+            <th>Nilai UTS</th>
+            <th>Nilai UAS</th>
+            <th>Nilai Akhir</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Matematika</td>
+            <td>85</td>
+            <td>78</td>
+            <td>82</td>
+            <td>82</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bahasa Indonesia</td>
+            <td>90</td>
+            <td>88</td>
+            <td>92</td>
+            <td>90</td>
+        </tr>
+        <!-- Tambahkan baris untuk mata pelajaran lainnya seperti di atas -->
+    </tbody>
+</table>
+
+<div class="semester-info" id="semester">
+    <h4>SEMESTER II</h4>
+    <p>Tahun Ajaran 2024/2025</p>
+</div>
+
+<table class="nilai-semester">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Mata Pelajaran</th>
+            <th>Nilai Tugas</th>
+            <th>Nilai UTS</th>
+            <th>Nilai UAS</th>
+            <th>Nilai Akhir</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Matematika</td>
+            <td>85</td>
+            <td>78</td>
+            <td>82</td>
+            <td>82</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bahasa Indonesia</td>
+            <td>90</td>
+            <td>88</td>
+            <td>92</td>
+            <td>90</td>
+        </tr>
+        <!-- Tambahkan baris untuk mata pelajaran lainnya seperti di atas -->
+    </tbody>
+</table>
 
 
-    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
+
+<script>
+        function showAlert() {
+            alert("Telah hadir!");
+        }
+    </script>
     <!-- ALL JS FILES -->
     <script src="js/all.js"></script>
     <!-- ALL PLUGINS -->
