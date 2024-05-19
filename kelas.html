@@ -40,25 +40,26 @@
 </head>
 <body class="host_version">
 <!-- Start header -->
-		<header class="top-navbar">
+	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="index.html" >
 					<img src="images/logosekolah.png" alt="" style="height: 100px;"/>
-                    <!-- nama website -->
-                    <nav class="navbar">
-                        <a href="index.html" class="nama-website" >SMA MANDALA BAKTI</a>
-                    </nav>
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+          <nav class="navbar">
+            <a href="index.html" class="nama-website">SMA MANDALA BAKTI</a>
+          </nav>
+        </a>	
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbars-host">
-					<ul class="navbar-nav ml-auto">
+        
+        <div class="collapse navbar-collapse" id="navbars-host">
+          <ul class="navbar-nav ml-auto"> 
 						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="Tentang Kami.html">Tentang kami</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">Tentang kami</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Data Master</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
@@ -66,181 +67,189 @@
 								<a class="dropdown-item" href="guru.html">Guru</a>
 								<a class="dropdown-item" href="staf.html">Staf</a>
 							</div>
-						
-						</li>
+            </li>
 						<li class="nav-item"><a class="nav-link" href="kelas.html">Kelas</a>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">e-Learning</a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="materi.html">Materi</a>
-								<a class="dropdown-item" href="e-Learning.html">Tugas</a>
-							</div>
-						</li>
-                        <li class="nav-item"><a class="nav-link" href="ekskul.html">Ekskul</a></li>
+						<li class="nav-item"><a class="nav-link" href="elearning.html">e-Learning</a>
+            <li class="nav-item"><a class="nav-link" href="ekskul.html">Ekskul</a></li>
 						<li class="nav-item"><a class="nav-link" href="prestasi.html">Prestasi</a></li>
-							</div>
-                        </li>
-					</ul>
-				</div>
+          </ul>
+        </div>
 			</div>
 		</nav>
 	</header>
 	<!-- End header -->
    
+
+
 <!-- Main Content -->
-
- <div class="navigasi-kelas">
-        <h2>Menu Navigasi</h2>
-        <ul>
-            <li><a href="#kelas-10">Kelas 10</a>
-                <ul class="subnav">
-                    <li><a href="#kelas-10a">10A</a></li>
-                    <li><a href="#kelas-10b">10B</a></li>
-                    <li><a href="#kelas-10c">10C</a></li>
-                </ul>
-            </li>
-        </ul>
+ <div class="kelas">
+        <div class="tabel-kelas">
+            <h2>KELAS 10-A</h2>
+            <li>Wali Kelas :</li>
+            <li>Ketua Kelas :</li>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                        <th>Jam Pelajaran</th>
+                        <th>Mapel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senin</td>
+                        <td>08:00 - 09:30</td>
+                        <td>Matematika</td>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>09:45 - 11:15</td>
+                        <td>Bahasa Indonesia</td>
+                    </tr>
+                    <!-- Tambahkan data lainnya di sini -->
+                </tbody>
+            </table>
+        </div>
+        <div class="tabel-kelas">
+            <h2>KELAS 10-B</h2>
+             <li>Wali Kelas :</li>
+            <li>Ketua Kelas :</li>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                        <th>Jam Pelajaran</th>
+                        <th>Mapel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senin</td>
+                        <td>08:00 - 09:30</td>
+                        <td>Fisika</td>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>09:45 - 11:15</td>
+                        <td>Kimia</td>
+                    </tr>
+                    <!-- Tambahkan data lainnya di sini -->
+                </tbody>
+            </table>
+        </div>
     </div>
-
-    <!-- Konten Utama -->
-    <div class="kelas" id="10A">
-        <h2>Jadwal Kelas</h2>
-        <!-- Tambahkan tabel jadwal kelas di sini -->
-         <table class="jadwal-sekolah">
-    <thead>
-        <tr>
-            <th>Hari</th>
-            <th>Jam Pelajaran</th>
-            <th>Mata Pelajaran</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan="3">Senin</td>
-            <td>07:00 - 08:30</td>
-            <td>Matematika</td>
-        </tr>
-        <tr>
-            <td>09:00 - 10:30</td>
-            <td>Bahasa Indonesia</td>
-        </tr>
-        <tr>
-            <td>11:00 - 12:30</td>
-            <td>IPA</td>
-        </tr>
-        <tr>
-            <td rowspan="3">Senin</td>
-            <td>07:00 - 08:30</td>
-            <td>Matematika</td>
-        </tr>
-        <tr>
-            <td>09:00 - 10:30</td>
-            <td>Bahasa Indonesia</td>
-        </tr>
-        <tr>
-            <td>11:00 - 12:30</td>
-            <td>IPA</td>
-        </tr>
-        <tr>
-            <td rowspan="3">Senin</td>
-            <td>07:00 - 08:30</td>
-            <td>Matematika</td>
-        </tr>
-        <tr>
-            <td>09:00 - 10:30</td>
-            <td>Bahasa Indonesia</td>
-        </tr>
-        <tr>
-            <td>11:00 - 12:30</td>
-            <td>IPA</td>
-        </tr>
-        <tr>
-            <td rowspan="3">Senin</td>
-            <td>07:00 - 08:30</td>
-            <td>Matematika</td>
-        </tr>
-        <tr>
-            <td>09:00 - 10:30</td>
-            <td>Bahasa Indonesia</td>
-        </tr>
-        <tr>
-            <td>11:00 - 12:30</td>
-            <td>IPA</td>
-        </tr>
-    </tbody>
-</table>
-         <table class="jadwal-sekolah">
-    <thead>
-        <tr>
-            <th>Hari</th>
-            <th>Jam Pelajaran</th>
-            <th>Mata Pelajaran</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan="3">Senin</td>
-            <td>07:00 - 08:30</td>
-            <td>Matematika</td>
-        </tr>
-        <tr>
-            <td>09:00 - 10:30</td>
-            <td>Bahasa Indonesia</td>
-        </tr>
-        <tr>
-            <td>11:00 - 12:30</td>
-            <td>IPA</td>
-        </tr>
-        <tr>
-            <td rowspan="3">Senin</td>
-            <td>07:00 - 08:30</td>
-            <td>Matematika</td>
-        </tr>
-        <tr>
-            <td>09:00 - 10:30</td>
-            <td>Bahasa Indonesia</td>
-        </tr>
-        <tr>
-            <td>11:00 - 12:30</td>
-            <td>IPA</td>
-        </tr>
-        <tr>
-            <td rowspan="3">Senin</td>
-            <td>07:00 - 08:30</td>
-            <td>Matematika</td>
-        </tr>
-        <tr>
-            <td>09:00 - 10:30</td>
-            <td>Bahasa Indonesia</td>
-        </tr>
-        <tr>
-            <td>11:00 - 12:30</td>
-            <td>IPA</td>
-        </tr>
-        <tr>
-            <td rowspan="3">Senin</td>
-            <td>07:00 - 08:30</td>
-            <td>Matematika</td>
-        </tr>
-        <tr>
-            <td>09:00 - 10:30</td>
-            <td>Bahasa Indonesia</td>
-        </tr>
-        <tr>
-            <td>11:00 - 12:30</td>
-            <td>IPA</td>
-        </tr>
-    </tbody>
-</table>
+ <div class="kelas">
+        <div class="tabel-kelas">
+            <h2>KELAS 11-A</h2>
+             <li>Wali Kelas :</li>
+            <li>Ketua Kelas :</li>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                        <th>Jam Pelajaran</th>
+                        <th>Mapel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senin</td>
+                        <td>08:00 - 09:30</td>
+                        <td>Matematika</td>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>09:45 - 11:15</td>
+                        <td>Bahasa Indonesia</td>
+                    </tr>
+                    <!-- Tambahkan data lainnya di sini -->
+                </tbody>
+            </table>
+        </div>
+        <div class="tabel-kelas">
+            <h2>11-B</h2>
+             <li>Wali Kelas :</li>
+            <li>Ketua Kelas :</li>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                        <th>Jam Pelajaran</th>
+                        <th>Mapel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senin</td>
+                        <td>08:00 - 09:30</td>
+                        <td>Fisika</td>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>09:45 - 11:15</td>
+                        <td>Kimia</td>
+                    </tr>
+                    <!-- Tambahkan data lainnya di sini -->
+                </tbody>
+            </table>
+        </div>
     </div>
-
-    <!-- Informasi Kelas -->
-    <div class="kelas-info">
-        <h2>Informasi Kelas</h2>
-        <p><strong>Wali Kelas:</strong> John Doe</p>
-        <p><strong>Jumlah Siswa:</strong> 30</p>
+ <div class="kelas">
+        <div class="tabel-kelas">
+            <h2>KELAS -12-A</h2>
+             <li>Wali Kelas :</li>
+            <li>Ketua Kelas :</li>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                        <th>Jam Pelajaran</th>
+                        <th>Mapel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senin</td>
+                        <td>08:00 - 09:30</td>
+                        <td>Matematika</td>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>09:45 - 11:15</td>
+                        <td>Bahasa Indonesia</td>
+                    </tr>
+                    <!-- Tambahkan data lainnya di sini -->
+                </tbody>
+            </table>
+        </div>
+        <div class="tabel-kelas">
+            <h2>KELAS 12-B</h2>
+             <li>Wali Kelas :</li>
+            <li>Ketua Kelas :</li>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                        <th>Jam Pelajaran</th>
+                        <th>Mapel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senin</td>
+                        <td>08:00 - 09:30</td>
+                        <td>Fisika</td>
+                    </tr>
+                    <tr>
+                        <td>Senin</td>
+                        <td>09:45 - 11:15</td>
+                        <td>Kimia</td>
+                    </tr>
+                    <!-- Tambahkan data lainnya di sini -->
+                </tbody>
+            </table>
+        </div>
     </div>
-
 <!-- End content -->
 
 
