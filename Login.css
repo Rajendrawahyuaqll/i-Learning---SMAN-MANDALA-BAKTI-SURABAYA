@@ -1,8 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: aqua ;
-    background: url(sekolah4.jpg);
-    
+    background: linear-gradient(to bottom, #3592fc, #fff);
     margin: 0;
     padding: 0;
     display: flex;
@@ -13,7 +11,7 @@ body {
 }
 
 .login-container {
-    background-color: rgba(174, 168, 168, 0.8); /* Adjust the alpha value (0.8) to make it less intense */
+    background-color: rgba(0, 0, 100,0.5 ) ;/* Adjust the alpha value (0.8) to make it less intense */
     box-shadow: 0 0 20px rgba(9, 9, 9, 0.1);
     padding: 50px;
     border-radius: 20px;
@@ -75,7 +73,7 @@ button:hover {
 }
 .google-icon {
     margin-top: 20px;
-    text-align: center;
+    text-align: center
 }
 
 .google-icon a {
